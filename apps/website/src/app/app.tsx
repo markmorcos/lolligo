@@ -2,9 +2,14 @@ import { Button } from '@markmorcos/ui';
 
 export const App = () => {
   return (
-    <Button primary size="large">
-      Hello, world!
-    </Button>
+    <>
+      <div>
+        <Button primary size="large">
+          Hello, world!
+        </Button>
+      </div>
+      <Button>Secondary Hello, world!</Button>
+    </>
   );
 };
 
