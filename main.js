@@ -28,16 +28,31 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/circleci/project/apps/website/src/app/app.tsx";
 
 
+
 const App = () => {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(_markmorcos_ui__WEBPACK_IMPORTED_MODULE_0__["Button"], {
-    primary: true,
-    size: "large",
-    children: "Hello, world!"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 5,
-    columnNumber: 5
-  }, undefined);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(_markmorcos_ui__WEBPACK_IMPORTED_MODULE_0__["Button"], {
+        primary: true,
+        size: "large",
+        children: "Hello, world!"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(_markmorcos_ui__WEBPACK_IMPORTED_MODULE_0__["Button"], {
+      children: "Secondary Hello, world!"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true);
 };
 /* harmony default export */ __webpack_exports__["default"] = (App);
 
