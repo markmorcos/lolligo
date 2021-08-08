@@ -11,7 +11,7 @@ export const App = () => {
           width: 1000,
           margin: 'auto',
           background: 'lightgrey',
-          minHeight: 'calc(100vh - 56px - 8px)',
+          minHeight: 'calc(100vh - 64px)',
         }}
       >
         <Design />
