@@ -1,22 +1,29 @@
+import styled from 'styled-components';
+
 import { TopBar } from '@markmorcos/ui';
 
 import { Design } from './pages/Design';
 
+const Container = styled.div`
+  width: 100vw;
+  overflow-x: hidden;
+`;
+
+const Main = styled.div`
+  width: 1000px;
+  margin: auto;
+  border: 1px solid black;
+  height: 'calc(100vh - 56px - 8px - 2px - 8px);
+`;
+
 export const App = () => {
   return (
-    <div style={{ width: '100vw', overflowX: 'hidden' }}>
+    <Container>
       <TopBar title="Lolligo" />
-      <div
-        style={{
-          width: 1000,
-          margin: 'auto',
-          border: '1px solid black',
-          height: 'calc(100vh - 56px - 8px - 2px - 8px)',
-        }}
-      >
+      <Main>
         <Design />
-      </div>
-    </div>
+      </Main>
+    </Container>
   );
 };
 

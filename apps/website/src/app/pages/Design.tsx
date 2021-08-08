@@ -7,6 +7,7 @@ import { Button } from '@markmorcos/ui';
 const Container = styled.div`
   display: flex;
   height: calc(100vh - 56px - 8px - 2px - 8px);
+  overflow: hidden;
 `;
 
 const Toolbox = styled.div`
@@ -18,6 +19,7 @@ const Canvas = styled.div`
   height: 100%;
   position: relative;
   background-image: url(${shirt});
+  background-repeat: no-repeat;
 `;
 
 interface StyledElementProps {
