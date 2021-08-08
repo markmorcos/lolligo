@@ -1416,10 +1416,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@markmorcos/ui@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@markmorcos/ui/-/ui-1.0.7.tgz#dc3f8ec978cb646644c63aa458ddb31b96b1f000"
-  integrity sha512-jWIBw9WtAXpFfNoMHomGQ5J8nnFXOYXSEpU/0OX7zW6heFQLIULck+fwaHj6qVPWlVWXdiaxL3VM5M89NCbcLA==
+"@markmorcos/ui@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@markmorcos/ui/-/ui-1.1.0.tgz#264a525599f5a9b504580555b4fff9a31fa25484"
+  integrity sha512-5gLkgXtsLpbij2g3lo3rwX9SK7OgbInQJnR3amTTl6myvkCRbyg+AXPnW1jSHPE2wu6B/uJqGcgX/U/YgWZYAw==
   dependencies:
     react "^17.0.2"
     react-dom "^17.0.2"
