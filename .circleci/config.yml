@@ -17,7 +17,7 @@ jobs:
           command: yarn test website
       - run:
           name: Build
-          command: yarn build website
+          command: yarn build website --configuration=production
       - gh-pages/deploy:
           build-dir: dist/apps/website
 
