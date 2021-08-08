@@ -1,0 +1,27 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.1
+  gh-pages: sugarshin/gh-pages@0.0.6
+
+jobs:
+  website:
+    docker:
+      - image: cimg/node:lts
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: yarn
+      - run:
+          name: Test
+          command: yarn test website
+      - run:
+          name: Build
+          command: yarn build website
+      - gh-pages/deploy:
+          build-dir: dist/apps/website
+
+workflows:
+  main:
+    jobs:
+      - website
